@@ -1,0 +1,25 @@
+# Ignore environment / config files
+.env
+
+# Ignore local database/config files if they contain credentials
+config.php
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code local settings
+.vscode/
+
+
+
+# Ignore dependency folders if you use them
+vendor/
+node_modules/
